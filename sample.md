@@ -48,8 +48,10 @@ keys *
 
 set key value
 
+* ttl 적용 확인   
 ttl key
 
+* ttl 적용   
 expire key 100
 
 ttl key
