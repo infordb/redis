@@ -41,7 +41,7 @@ get key
 del key   
 
 * Scan All Key   
-key *
+keys *
 
 
 ### TTL
