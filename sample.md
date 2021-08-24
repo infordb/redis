@@ -37,6 +37,9 @@ get key
 set key value2
 get key   
 
+* Delete   
+del key   
+
 * Scan All Key   
 key *
 
