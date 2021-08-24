@@ -21,3 +21,24 @@ inbound
 대상주소 : My Windown IP
 Port : TCP 6378 
 ```
+
+### CRUD
+
+
+set key value
+get key
+set key value2
+get key
+
+
+### TTL
+
+set key value
+
+ttl key
+
+expire key 100
+
+ttl key
+
+
