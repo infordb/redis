@@ -62,5 +62,23 @@ score가 같으면 value로 sort됩니다.
 Sorted Sets에서는 집합이라는 의미에서 value를 member라 부릅니다.   
 Sorted Sets은 주로 sort가 필요한 곳에 사용됩니다.   
 
+* sorted set 생성   
+zadd mysite  1000 google.com 900 facebook.com 800 youtube.com   
+
+* Score 역순 조회    
+zrevrange mysite 0 -1 withscores   
+
+* youtube.com score 150 증가   
+zincrby mysite 150 youtube.com       
+
+* Score 역순 조회    
+zrevrange mysite 0 -1 withscores   
+
+* google.com score 60 감소   
+zincrby mysite -60 google.com   감소
+
+* Score 역순 조회    
+zrevrange mysite 0 -1 withscores   
+
 
 
