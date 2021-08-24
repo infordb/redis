@@ -89,4 +89,5 @@ zrange mysite 0 0 withscores
 * 0 1  2개 조회
 zrange mysite 0 1 withscores
 ```
-
+* ASC 조회   
+zrange mysite 0 -1 withscores
