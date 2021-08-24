@@ -27,14 +27,18 @@ Port : TCP 6378
 
 ### CRUD
 
-
+* Create
 set key value
 
+* Read
 get key
 
+* Update
 set key value2
-
 get key
+
+* Scan All Key
+key *
 
 
 ### TTL
