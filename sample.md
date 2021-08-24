@@ -1,8 +1,11 @@
-https://github.com/patrikx3/redis-ui/releases/tag/v2021.10.106
 
 
+### Redis Gui Tool Download
 
-## 외부 접속
+https://www.electronjs.org/apps/p3x-redis-ui
+
+
+### 외부 접속
 ```
 내IP 확인방법 : Naver에서 "ip주소" 검색 
 
