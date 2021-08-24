@@ -80,5 +80,13 @@ zincrby mysite -60 google.com   감소
 * Score 역순 조회    
 zrevrange mysite 0 -1 withscores   
 
-
+* 조회개수
+```
+* 0 -1 전체 조회
+zrange mysite 0 -1 withscores
+* 0 0  1개 조회
+zrange mysite 0 0 withscores   
+* 0 1  2개 조회
+zrange mysite 0 1 withscores
+```
 
