@@ -5,7 +5,7 @@
 https://www.electronjs.org/apps/p3x-redis-ui
 
 
-### 외부 접속
+## 외부 접속
 ```
 내IP 확인방법 : Naver에서 "ip주소" 검색 
 
@@ -25,7 +25,7 @@ inbound
 Port : TCP 6378 
 ```
 
-### CRUD
+## CRUD
 
 * Create   
 set key value
