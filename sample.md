@@ -75,7 +75,7 @@ zincrby mysite 150 youtube.com
 zrevrange mysite 0 -1 withscores   
 
 * google.com score 60 감소   
-zincrby mysite -60 google.com   감소
+zincrby mysite -60 google.com   
 
 * Score 역순 조회    
 zrevrange mysite 0 -1 withscores   
