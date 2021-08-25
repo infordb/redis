@@ -56,6 +56,8 @@ expire key 100
 
 ttl key
 
+SET anotherkey "will expire in a minute" EX 60   
+
 
 ## Sorted SET
 Sorted Sets는 key 하나에 여러개의 score와 value로 구성됩니다.   
