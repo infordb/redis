@@ -44,7 +44,7 @@ del key
 keys *
 
 
-### TTL
+### TTL (Time To Live)
 
 set key value
 
