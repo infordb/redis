@@ -25,6 +25,13 @@ inbound
 Port : TCP 6378 
 ```
 
+## Redis info
+
+```
+> info
+```
+
+
 ## CRUD
 
 * Create   
