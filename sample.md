@@ -34,7 +34,7 @@ set key value
 get key
 
 * Update   
-set key value2
+set key value2   
 get key   
 
 * Delete   
