@@ -26,3 +26,6 @@ Execute Cli
 C:\Program Files\Redis\redis-cli.exe
 ```
 
+
+## GUI Client
+https://www.electronjs.org/apps/p3x-redis-ui
